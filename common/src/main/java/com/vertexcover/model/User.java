@@ -44,12 +44,6 @@ public class User {
     public User() {
     }
 
-    public User(String name, String dept) {
-
-        this.name = name;
-        this.dept = dept;
-    }
-
     @Override
     public String toString() {
         return "User{" +
